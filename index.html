@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
 </head>
 <body>
     <section class="main">
@@ -85,6 +85,35 @@
                 <img src="./images/about.jpeg" alt="about">
             </div>
         </div>
+    </section>
+    <section class="form_holder">
+        <form class="container">
+            <div class="header">Записаться на прием</div>
+            <div class="grid">
+                <div class="column">
+                    <input type="text" placeholder="Ваше имя *" />
+                    <input type="text" placeholder="Ваш телефон *" />
+                    <div class="select">
+                        <select>
+                            <option value="" disabled selected>Тема встречи *</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <textarea placeholder="Пожелания" no-size></textarea>
+                </div>
+            </div>
+            <div class="action_block">
+                <label for="agree">
+                    <input type="checkbox" name="" id="agree">
+                    <span>Я согласен с политикой конфиденциальности</span>
+                </label>
+                <button class="button--primary">Отправить</button>
+            </div>
+        </form>
     </section>
 </body>
 </html>
