@@ -25,6 +25,12 @@ ul {
   width: 1258px;
 }
 
+.label-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .button, .button--secondary, .button--primary {
   border: none;
   border-radius: 10px;

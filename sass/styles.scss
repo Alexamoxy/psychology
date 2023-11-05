@@ -28,6 +28,12 @@ ul{
     width: 1258px;
 }
 
+.label-control{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .button{
     border:none;
     border-radius: 10px;
